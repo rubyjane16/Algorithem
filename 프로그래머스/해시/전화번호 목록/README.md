@@ -30,6 +30,6 @@ phone_book	return
 첫 번째 전화번호, “12”가 두 번째 전화번호 “123”의 접두사입니다. 따라서 답은 false입니다.
 
 **해결방법
-1. loop만 이용하기.
-2. sort 후 loop
-3. hash 사용
+1. sort 후
+    array.startsWith(answer); // array 배열이 answer로 시작하는지 확인하는 함수
+2. hash 사용
