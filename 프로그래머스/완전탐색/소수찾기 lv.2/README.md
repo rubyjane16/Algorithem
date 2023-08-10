@@ -20,3 +20,6 @@ numbers	return
 [0, 1, 1]으로는 소수 [11, 101]를 만들 수 있습니다.
 
 11과 011은 같은 숫자로 취급합니다.
+
+**문제 해결 과정
+subString(startIndex,lastIndex); // startIndex부터 lastIndex "전"까지의 문자열을 잘라서 리턴합니다.
