@@ -23,4 +23,4 @@ numbers	return
 
 **문제 해결 과정
 -subString(startIndex,lastIndex); // startIndex부터 lastIndex "전"까지의 문자열을 잘라서 리턴합니다.
--iterator를 활용하면 다양한 자료구조에서 공통적으로 사용할 수 있다는 장점이 있다. 
+-iterator를 활용하면 다양한 자료구조에서 공통적으로 사용할 수 있다는 장점이 있다. (hasNext, next, remove로 사용한다.)
