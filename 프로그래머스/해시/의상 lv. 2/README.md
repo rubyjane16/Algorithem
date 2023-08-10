@@ -1,4 +1,4 @@
-
+## <a href="https://school.programmers.co.kr/learn/courses/30/lessons/42578">의상</a>
 ### 문제 설명
 <p>코니는 매일 다른 옷을 조합하여 입는것을 좋아합니다.
 
@@ -47,4 +47,6 @@ face에 해당하는 의상이 crow_mask, blue_sunglasses, smoky_makeup이므로
 1. crow_mask
 2. blue_sunglasses
 3. smoky_makeup
+
+### 문제 해결 과정
 
