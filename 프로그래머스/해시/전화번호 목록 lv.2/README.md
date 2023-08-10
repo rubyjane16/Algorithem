@@ -51,11 +51,11 @@
 </ul>
 
 ### 문제 해결 과정
-<p>
+
 <ol>
 <li> sort 후</li>
     array.startsWith(answer); // array 배열이 answer로 시작하는지 확인하는 함수
 <li> hash 사용</li>
 </ol>
-</p>
+
 
