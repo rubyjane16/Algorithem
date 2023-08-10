@@ -34,33 +34,37 @@ completion의 길이는 participant의 길이보다 1 작습니다.
         <td>"mislav"</td>
 </tr>
   </table>
-입출력 예 설명
+  
+### 입출력 예 설명
+<ul>
 예제 #1
-"leo"는 참여자 명단에는 있지만, 완주자 명단에는 없기 때문에 완주하지 못했습니다.
+<li>"leo"는 참여자 명단에는 있지만, 완주자 명단에는 없기 때문에 완주하지 못했습니다.</li>
 
 예제 #2
-"vinko"는 참여자 명단에는 있지만, 완주자 명단에는 없기 때문에 완주하지 못했습니다.
+<li>"vinko"는 참여자 명단에는 있지만, 완주자 명단에는 없기 때문에 완주하지 못했습니다.</li>
 
 예제 #3
-"mislav"는 참여자 명단에는 두 명이 있지만, 완주자 명단에는 한 명밖에 없기 때문에 한명은 완주하지 못했습니다.
+<li>"mislav"는 참여자 명단에는 두 명이 있지만, 완주자 명단에는 한 명밖에 없기 때문에 한명은 완주하지 못했습니다.</li>
+</ul>
 
 ### 문제 해결 과정
-Sorting 해쉬를 사용하여 두 가지의 방법으로 문제를 해결할 수 있다.
-해쉬는 key와 value의 조합이다. 마치 전화번호부와 비슷하다.
-key는 고유값이기 때문에 중복이 불가하다. 따라서 value값으로 key의 중복을 처리한다.
+<pre>
+<ul>
+ <li>Sorting 해쉬를 사용하여 두 가지의 방법으로 문제를 해결할 수 있다.</li>
+<li>해쉬는 key와 value의 조합이다. 마치 전화번호부와 비슷하다.</li>
+<li>key는 고유값이기 때문에 중복이 불가하다. 따라서 value값으로 key의 중복을 처리한다.</li>
 
-*map.put() //hash 초기값 넣기
-<br>
-*map.getOrDefault((player,0)+1) : map에서 player라는 key를 가진 값을 가져와달라. 이전에 없었다면 value를 0으로 하고 거기에 1을 더해 1로 set을 하고 이전에 있었다면 player의 값을 가져와서 value+1이니까 2가 된다.
-<br>
-<p>*hash를 꺼내는 방법
-  <br>
+-map.put() //hash 초기값 넣기
+
+-map.getOrDefault((player,0)+1) : map에서 player라는 key를 가진 값을 가져와달라. 이전에 없었다면 value를 0으로 하고 거기에 1을 더해 1로 set을 하고 이전에 있었다면 player의 값을 가져와서 value+1이니까 2가 된다.
+
+-hash를 꺼내는 방법
+
 for(String i : map){
-<br>i
-  <br>
-  }
-</p>
-<br>
-*map.get() // key 값을 통해 value 를 불러오거나 수정한다. 
-<br>
-*map.keySet() // map이 가진 key들을 하나씩 꺼낸다.
+    i
+ }
+
+-map.get() // key 값을 통해 value 를 불러오거나 수정한다. 
+
+-map.keySet() // map이 가진 key들을 하나씩 꺼낸다.
+</pre>
