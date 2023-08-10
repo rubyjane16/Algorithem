@@ -22,5 +22,8 @@ numbers	return
 11과 011은 같은 숫자로 취급합니다.
 
 **문제 해결 과정
+1.재귀 함수로 모든 숫자의 조합을 찾는다.
+2.에라토스테네스의 체의 limit으로 소수인지 아닌지 확인하는 isPrime함수를 구현하여 소수의 갯수를 센다.
+3.소수의 갯수를 반환한다. 
 -subString(startIndex,lastIndex); // startIndex부터 lastIndex "전"까지의 문자열을 잘라서 리턴합니다.
 -iterator를 활용하면 다양한 자료구조에서 공통적으로 사용할 수 있다는 장점이 있다. (hasNext, next, remove로 사용한다.)
