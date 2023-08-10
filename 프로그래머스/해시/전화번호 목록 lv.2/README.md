@@ -34,7 +34,7 @@
 </tr>
 <tr>
     <td>["12","123","1235","567","88"]</td>
-    <td><false</td>
+    <td>false</td>
 </tr>
 </table>
         
@@ -50,10 +50,11 @@
 <li>첫 번째 전화번호, “12”가 두 번째 전화번호 “123”의 접두사입니다. 따라서 답은 false입니다.<li>
 
 ### 문제 해결 과정
-<pre>
-    <ol>
+<p>
+<ol>
 <li> sort 후</li>
     array.startsWith(answer); // array 배열이 answer로 시작하는지 확인하는 함수
 <li> hash 사용</li>
-    </ol>
-    </pre>
+</ol>
+</p>
+
