@@ -56,7 +56,8 @@ completion의 길이는 participant의 길이보다 1 작습니다.
 
 -map.put() //hash 초기값 넣기
 
--map.getOrDefault((player,0)+1) : map에서 player라는 key를 가진 값을 가져와달라. 이전에 없었다면 value를 0으로 하고 거기에 1을 더해 1로 set을 하고 이전에 있었다면 player의 값을 가져와서 value+1이니까 2가 된다.
+-map.getOrDefault((player,0)+1) : map에서 player라는 key를 가진 값을 가져와달라. 
+ 이전에 없었다면 value를 0으로 하고 거기에 1을 더해 1로 set을 하고 이전에 있었다면 player의 값을 가져와서 value+1이니까 2가 된다.
 
 -hash를 꺼내는 방법
 
