@@ -10,7 +10,7 @@ class Solution {
 
    //   2. 다를 때 까지 찾는다. 
         int i=0;
-        for(; i<completion.length; i++){
+        for(; i<completion.length; i++){ //array의 길이는 length로 
             if(!participant[i].equals(completion[i])){
                 return participant[i];
             }
