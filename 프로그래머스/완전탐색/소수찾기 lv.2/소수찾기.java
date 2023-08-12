@@ -26,7 +26,7 @@ class Solution {
          numberSet.add(Integer.valueOf(comb));//정수로 변환
         
         //2. 남은 숫자 중 한개를 더 해 새로운 조합을  만든다.
-        for(int i=0; i<others.length(); i++){
+        for(int i=0; i<others.length(); i++){ //others가 비워지면 재귀가 끝난다.
             recursive(comb+others.charAt(i),others.substring(0,i)+others.substring(i+1)); //others중 하나만 더해주고 쓰지 않은 숫자들을 매개변수 others에 넣는다. 
                       
         }
