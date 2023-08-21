@@ -5,7 +5,7 @@ class Solution {
     public int solution(String[][] clothes) {
         HashMap<String, Integer> map= new HashMap<>();
         //해쉬로 옷의 종류를 구분해준다.
-        for(String [] clothe: clothes){
+        for(String [] clothe: clothes){ //배열 하나씩 반복
             String type = clothe[1];//type이 인덱스 1에 있다.
             map.put(type,map.getOrDefault(type,0)+1);//key,value
             
