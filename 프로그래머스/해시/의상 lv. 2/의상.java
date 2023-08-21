@@ -14,7 +14,7 @@ class Solution {
         Iterator<Integer>it=map.values().iterator();
         int answer=1; //곱이기 때문에
         while(it.hasNext())
-            answer*=it.next().intValue()+1;//2.입지 않는 경우(none)를 추가해서 모든 조합을 계산한다.
+            answer*=it.next().intValue()+1;//2.입지 않는 경우(none)를 추가해서 모든 '조합'을 계산한다.
         
         //3. 최소 하나의 옷은 입어야하기 때문에 아무종류의 옷도 입지 않는 경우는 제외한다.
         return answer-1;
