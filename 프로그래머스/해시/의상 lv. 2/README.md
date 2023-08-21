@@ -70,23 +70,26 @@ clothes
 ### 입출력 예 설명
 예제 #1
 headgear에 해당하는 의상이 yellow_hat, green_turban이고 eyewear에 해당하는 의상이 blue_sunglasses이므로 아래와 같이 5개의 조합이 가능합니다.
-
+<pre>
 1. yellow_hat
 2. blue_sunglasses
 3. green_turban
 4. yellow_hat + blue_sunglasses
 5. green_turban + blue_sunglasses
+</pre>
 예제 #2
 face에 해당하는 의상이 crow_mask, blue_sunglasses, smoky_makeup이므로 아래와 같이 3개의 조합이 가능합니다.
-
+<pre>
 1. crow_mask
 2. blue_sunglasses
 3. smoky_makeup
-
+</pre>
 ### 문제 해결 과정
+<pre>
 종류별로 경우의 수를 구해야할 때는 해시를 쓰는 게 편하다
 1.옷을 종류별로 구별한다.
 2.입지 않는 경우를 추가해서 모든 조합을 계산한다.
 3.아무종류의 옷도 입지 않는 경우 제외한다.
+</pre>
 
 
