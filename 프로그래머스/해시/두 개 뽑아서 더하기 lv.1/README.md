@@ -35,6 +35,7 @@ numbers	result
   arrayList와 HashSet 두 가지 방법으로 해결할 수 있다.
   **indexOf() : 특정 문자나 문자열이앞에서부터 처음 발견되는 인덱스를 반환하며 
   찾지 못했을 경우 -1 을 반환한다.
+  **arrays는 고정길이이고 arrayList는 가변길이다.
   
   HashSet
   중복을 허용하지 않는다.
