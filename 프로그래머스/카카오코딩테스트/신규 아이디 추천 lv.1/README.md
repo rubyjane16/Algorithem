@@ -1,6 +1,6 @@
-# 신규 아이디 추천 https://school.programmers.co.kr/learn/courses/30/lessons/72410
+## <a href="https://school.programmers.co.kr/learn/courses/30/lessons/72410">신규 아이디 추천</a>
 
-## 문제 설명
+### 문제 설명
 카카오에 입사한 신입 개발자 네오는 "카카오계정개발팀"에 배치되어, 카카오 서비스에 가입하는 유저들의 아이디를 생성하는 업무를 담당하게 되었습니다. "네오"에게 주어진 첫 업무는 새로 가입하는 유저들이 카카오 아이디 규칙에 맞지 않는 아이디를 입력했을 때, 입력된 아이디와 유사하면서 규칙에 맞는 아이디를 추천해주는 프로그램을 개발하는 것입니다.
 다음은 카카오 아이디의 규칙입니다.
 
@@ -43,15 +43,15 @@
 
 따라서 신규 유저가 입력한 new_id가 "...!@BaT#*..y.abcdefghijklm"일 때, 네오의 프로그램이 추천하는 새로운 아이디는 "bat.y.abcdefghi" 입니다.
 
-## [문제]
+### [문제]
 신규 유저가 입력한 아이디를 나타내는 new_id가 매개변수로 주어질 때, "네오"가 설계한 7단계의 처리 과정을 거친 후의 추천 아이디를 return 하도록 solution 함수를 완성해 주세요.
 
-## [제한사항]
+### [제한사항]
 new_id는 길이 1 이상 1,000 이하인 문자열입니다.
 new_id는 알파벳 대문자, 알파벳 소문자, 숫자, 특수문자로 구성되어 있습니다.
 new_id에 나타날 수 있는 특수문자는 -_.~!@#$%^&*()=+[{]}:?,<>/ 로 한정됩니다.
 
-## [입출력 예]
+### [입출력 예]
 no	new_id	result
 예1	"...!@BaT#*..y.abcdefghijklm"	"bat.y.abcdefghi"
 예2	"z-+.^."	"z--"
@@ -96,7 +96,7 @@ no	new_id	result
 6단계 "abcdefghijklmn.p" → "abcdefghijklmn." → "abcdefghijklmn"
 7단계 변화 없습니다.
 
-## 문제 해결 과정 
+### 문제 해결 과정 
 <pre>
   toLowerCase() //대문자를 소문자로 치환
   isAlphabetic() //알파벳인지 아닌지 확인
