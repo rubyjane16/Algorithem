@@ -33,13 +33,22 @@ new_id는 알파벳 대문자, 알파벳 소문자, 숫자, 특수문자로 구�
 new_id에 나타날 수 있는 특수문자는 <code>-_.~!@#$%^&*()=+[{]}:?,<>/</code> 로 한정됩니다.
 
 ### [입출력 예]
-no	new_id	result
-예1	"...!@BaT#*..y.abcdefghijklm"	"bat.y.abcdefghi"
-예2	"z-+.^."	"z--"
-예3	"=.="	"aaa"
-예4	"123_.def"	"123_.def"
-예5	"abcdefghijklmn.p"	"abcdefghijklmn"
-
+<table>
+<th>no</th>	<th>new_id</th>	<th>result</th>
+<tr> <td>예1</td>	<td>"...!@BaT#*..y.abcdefghijklm"</td>	<td>"bat.y.abcdefghi"</td>
+</tr>
+     <tr>
+<td>예2</td>	<td>"z-+.^."</td>	<th>"z--"</td>
+     </tr>
+     <tr>
+<td>예3</td>	<td>"=.="</td>	<td>"aaa"</td>
+          </tr>
+     <tr>
+<td>예4</td>	<td>"123_.def"</td>	<td>"123_.def"</td></tr>
+     <tr>
+<td>예5</td>	<td>"abcdefghijklmn.p"</td>	<td>"abcdefghijklmn"</td>
+     </tr>
+</table>
 
 ### 문제 해결 과정 
 <pre>
