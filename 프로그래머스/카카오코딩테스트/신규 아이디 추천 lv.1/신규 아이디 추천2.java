@@ -20,7 +20,7 @@ class Solution {
         if(!answer.isEmpty()&&answer.charAt(0)=='.')
             answer=answer.substring(1);
         if(!answer.isEmpty()&&answer.charAt(answer.length()-1)=='.')
-            answer=answer.substring(0,answer.length()-1);
+            answer=answer.substring(0,answer.length()-1); //마지막만 빼고 자른다. substring(시작index, 갯수)
     
            
         
