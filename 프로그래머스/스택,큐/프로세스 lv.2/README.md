@@ -13,7 +13,7 @@
 
 ### 제한사항
 <ul>
-<oi>priorities의 길이는 1 이상 100 이하입니다.</oi>
+<ol>priorities의 길이는 1 이상 100 이하입니다.</ol>
 <oi>priorities의 원소는 1 이상 9 이하의 정수입니다.</oi>
 <oi>priorities의 원소는 우선순위를 나타내며 숫자가 클 수록 우선순위가 높습니다.</oi>
 <oi>location은 0 이상 (대기 큐에 있는 프로세스 수 - 1) 이하의 값을 가집니다.</oi>
