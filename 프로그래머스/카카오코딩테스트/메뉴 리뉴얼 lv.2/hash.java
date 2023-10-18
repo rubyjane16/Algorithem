@@ -1,8 +1,9 @@
 import java.util.*;
 class Solution {
-    public String[] solution(String[] orders, int[] course) {
-        List<String>answerList=new ArrayList<>();
+      List<String>answerList=new ArrayList<>();//전역변수로 선언
         Map<String,Integer>hashMap=new HashMap<>();
+    public String[] solution(String[] orders, int[] course) {
+      
         //1.각 order 정렬
        for(int i=0; i<orders.length; i++){
            char[] arr=orders[i].toCharArray(); //string 자체를 정렬할 수 없어서 char로 형변환 해준다
@@ -42,7 +43,7 @@ class Solution {
             return;
         }
         //수행동작: 0부터 length까지 조합
-        for(int i=0; i<others.length; i++){
+        for(int i=0; i<others.length(); i++){
             combination(order+others.charAt(i),others.substring(i+1),count-1);
         }
     }
