@@ -97,6 +97,23 @@
 *조합(순서x)을 만들 땐 정렬을 고려하자
   *Hash Map 의 기본 형태는 NAME:COUNT
   *재귀= 탈출조건 + 수행동작
+  
+  *List에 사용하는 Collections
+  Collections.max
+  Collections.sort
+  
+  *toCharArray() //string을 char로 바꾼다.
+  *String.valueOf(arr)//char를 string으로
+  *str.charAt() //string 요소 하나하나 참조할 때
+
+  *Hash.get(key)//value값
+  *Hash.values() //value값 전체
+  *Hash.keyset() //key값 전체
+  *Hash.put() //add가 아니라 put을 쓴다.
+
+  String []arr=new String[List.size()] // arr크기 설정
+  
+  
 
 </pre>
 
