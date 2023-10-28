@@ -49,7 +49,7 @@ for(ArrayList<Integer>arr:hashMap.valuse()){
     arr.sort(null);
 }
   
-  
+*이진탐색을 거치면 left와 right가 같아질 때 종료된다.
 
 </pre>
 
