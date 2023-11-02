@@ -1,5 +1,5 @@
 *BigInteger클래스를 선언하여 long형을 뛰어넘는 큰 수를 연산할 수 있다.
-
+생성할 때 파라미터로 "문자열"을 넘겨주어야 한다
 BigInteger ㅁ = new BigInteger(input());
  
 /*
